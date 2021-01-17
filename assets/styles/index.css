@@ -1,0 +1,1849 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color:rgb(253, 250, 250);
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 40px;
+    height: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 2px 2px 5px grey; 
+    border-radius: 100px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background:  #71a0f8;
+    box-shadow: inset 1px 1px 2px black;
+    border-radius: 100px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: silver; 
+}
+
+
+
+
+/* style for the Main container, containing all other elements */
+.container{
+    width: 100%;
+    height: 2500px;
+}
+
+
+
+
+/* Style for Navigation container, containing the Logo and Nav Buttons */
+.navigation-container{
+    width: 100%;
+    height: 90px;
+    background-color:white;
+    position: fixed;
+    z-index: 10;
+}
+
+
+.navigation-container nav{/* Navigation elements */
+    width: 95%;
+    height: 20px;
+    text-align: right;
+    background-color: rown;
+    margin-top: 10px;
+}
+
+.navigation-container nav ul li{/* Navigation elements */
+    display: inline-block;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.navigation-container nav ul li:hover{/* Hover for navigation buttons */
+    color: white;
+    background-color: #71a0f8;
+    box-shadow: 2px 2px 10px silver;
+}
+
+.navigation-container nav ul a{
+    color: black;
+}
+
+.Home_nav_button-color{/* Home navigation button color  */
+    color: rgb(9, 206, 9);
+}
+.small_line_under-home {/* The Small line under Home navigation button*/
+    position: relative;
+    top: 47px; 
+    left: 17px;
+    color: rgb(9, 206, 9) !important;
+}
+
+
+/* Style for Logo Header & Symbol, inside the Navigation container  */
+header{
+    width: 15%;
+    height: 60px;
+    margin-left: 120px;
+    position: relative;
+    bottom: 20px;
+}
+
+.bar{/* Style for "navigation Bar on mobile-view" */
+    display: none;
+}
+
+header img{/* Logo image (Circle) */
+    margin-left: 20px;   
+    border-radius: 100px;
+}
+header h1{/* Logo big write-up (TUNZ) */
+    position: relative;    
+    bottom: 70px;
+    font-size: 38px;
+    margin-left: -6px;
+    font-family: tahoma;
+    color: #38A2F7;
+    letter-spacing: 5px;
+}
+header h3{/* Logo small write-up */
+    position: relative;
+    bottom: 75px;
+    margin-left: -5px;
+}
+
+
+
+
+/* Style for "We Know How To Please You" container  */
+.we_know_how-container{
+    width: 100%;
+    height: 700px;
+    background-color:#084ece;
+    opacity:1;
+    position: relative;
+    top: 90px;
+}
+.we_know_how-container img{/* Background image */
+    width: 100%;
+    height: 700px;
+    opacity: 0.5;
+}
+
+.we_know_how-write_ups{/* Write-up container */
+    position: relative;
+    bottom: 600px;
+    margin-left: 120px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+.we_know_how-write_ups h1{/* Big write-up (We Know How To Please You) */
+    font-size: 95px;
+}
+.we_know_how-write_ups p{/* Small write-up */
+    font-size: 30px;
+}
+
+
+
+/* Style for "Book Now container", found inside "We Know How To Please You" container  */
+.book_now-container{
+    width: 80%;
+    height: 100px;
+    background-color:whitesmoke;
+    position: relative;
+    bottom: 470px;
+    margin: 0px auto;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+form{/* Form container */
+    width: 99%;
+    height: 100px;
+    background-color: reen;
+    padding-left: 25px;
+}
+
+.form-input-box{/* Inline-block display element for Form elements */
+    display: inline-block;
+    margin: 13px 3px;
+    width: 15%;
+    height: 20px;
+}
+.form-input-box input{/* Form input elements */
+    width: 98%;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid  rgb(187, 184, 184);
+    background-color: transparent;
+    margin-top: 5px;
+    color:  rgb(187, 184, 184);
+}
+
+.form-input-box select{/* Form Select elements */
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid rgb(187, 184, 184);
+    background-color: transparent;
+    color:  rgb(187, 184, 184);
+    margin-top: 5px;
+    padding: 10px;
+}
+
+.form-input-box label{/* Form Label elemets */
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.book_now-button input{/* Form Button (Book now) element */
+    color: white;
+    font-weight: bold;
+    background-color: rgb(12, 163, 12);
+    opacity: 0.7;
+}
+
+
+
+
+
+/* Style for About Us container */
+.about_us{
+    overflow: hidden;
+    width: 100%;
+    height: 700px;
+    background-color: ellow;
+}
+
+.side_image{/* Style for Image by the right */
+    background-image: url(/assets/images/image-1.jpg);
+    background-size: cover;
+    float: right;
+    width: 50%;
+    height: 500px;
+    margin-top: 170px;
+    margin-right: -40px;
+    border-radius: 6000px 4000px 3000px 2000px;
+    text-align:right;
+}
+.arrow{/* Style for Arrow container, inside the Image by the right */
+    width: 50%;
+    height: 30px;
+    background-color: rebeccapurpe;
+    margin-left: 220px;
+    position: relative;
+    top: 452px;
+}
+.arrow a{
+    display: inline-block;
+    padding: 15px 40px;   
+}
+.arrow-1{/* Style for the first Arrow */
+    color:black;
+    background-color: gray;
+    opacity: 0.5;
+}
+.arrow-2{/* Style for the second Arrow */
+    color: white;
+    background-color:  rgb(27, 231, 105);
+    opacity: 0.5;
+}
+
+.side_image_arrow{/* Style for the Arrow itself*/
+    transform: scale(5, 1.5);
+
+}
+
+
+/* style for About-Us Write-up container */
+.about_us-write_up{
+    width: 80%;
+    height: 600px;
+    margin-left: 120px;
+    margin-top: 150px;
+    background-color: per;
+}
+.about_us-write_up h1{/* Style for About Us Header */
+    font-size: 50px;
+}
+.about_us-underline{/* Style for About us small under line */
+    color:black;
+    transform: scale(1.5);
+    margin-left: 7px;
+    position: relative;
+    bottom: 7px;
+}
+
+.about_us-write_up p{/* Style for About Us Paragraph write-up */
+    font-size: 22px;
+    line-height: 30px;
+    word-spacing: 3px;
+    margin-top: 10px;  
+}
+
+.about_us-write_up a{/* Style for "Read More" */
+    text-decoration: none;
+    color:  rgb(27, 231, 105);
+    font-size: 23px;
+    margin-top: 40px;
+}
+
+
+
+
+
+/* Style for section under About Us (FREE WIFI, CAR SERVICES, BREAK FAST) */
+.section_under-about_us{
+    width: 60%;
+    height: 120px;
+    background-color:white;
+    position: relative;
+    z-index: 5;
+    padding: 20px;
+    margin-top: 45px;
+    text-align: center;
+}
+
+.section-box{/* Style for Box containing each of the icons */
+    display: inline-block;
+    width: 25%;
+    height: 100px;
+    text-align: center;
+    position: relative;
+    left:35px;
+    top: 10px; 
+}
+.section-box h4{/* Style for Write-ups under the icons */
+    margin-top: 35px;
+}
+
+.section_icons{/* Style for the Icons itself */
+    transform: scale(4);
+    margin-top: 25px;
+    color: #38A2F7;
+}
+
+.wifi, .car_service{/* Style for Wifi & Car Service icon box */
+    border-right: 1px solid gray;
+}
+
+.spoon_in_break-fast{/* Style for Spoon icon on the Break fast Box */
+    margin-left: 25px;
+}
+
+
+
+
+
+
+
+
+
+/* Style for Explore_Our_Resort container */
+.explore_our_resort{
+    width: 100%;
+    height: 750px;
+    overflow: hidden;
+    margin-top: 50px;
+}
+
+.explore_our_resort-header{/* Style for Explore_Our_Resort Header container */
+    margin-left: 120px;
+    padding-top: 40px;
+}
+
+.explore_our_resort-header h1{/* Style for Explore_Our_Resort Header itself */
+    font-size: 50px;
+}
+
+
+/* Style for explore (it contains the "explore_images" container) */
+.explore{
+    width: 100%;
+    height: 550px;
+    overflow-x: scroll;
+}
+
+.explore_images{/* Style for explore_images, containing all the Images*/
+    display: flex;
+    width: 130%;
+    height: 500px;
+    margin-left: 120px;
+    
+}
+
+.box-1{/* Style for First image container by the Left */
+    width: 60%;
+    height: 520px;
+    background-image: url(/assets/images/image-2.jpg);
+    background-size: cover;
+    margin-right: 15px;
+}
+
+
+.box-2{/* Style for Second image container, next to first image container. It contains the Sub-image boxes */
+    width: 200%;
+    height: 500px;
+}
+
+/* Style for the Two top image boxes inside the Second image container */
+.box-2-1{
+    display: flex;
+    margin-bottom: 20px;
+}
+.size_of_Images_in_box-2-1{
+    width: 100%;
+    height: 250px;
+}
+
+.box-2-1-1{/* Style for the first top image box inside the Second image container */
+    background-image: url(/assets/images/image-3.jpg);
+    margin-right: 15px;
+    background-size: cover;
+}
+.box-2-1-2{/* Style for the second top image box inside the Second image container */
+    background-image: url(/assets/images/image-3.jpg);
+    background-size: cover;
+}
+
+
+
+/* Style for the Three Down image boxes inside the Second image container */
+.box-2-2{
+    display: flex;
+}
+.size_of_Images_in_box-2-2{
+    width: 40%;
+    height: 250px;
+}
+
+.box-2-2-1{/* Style for the first Down image box inside the Second image container */
+    background-image: url(/assets/images/image-4.jpg);
+    margin-right: 15px;
+    background-size: cover;
+}
+
+.box-2-2-2{/* Style for the second Down image box inside the Second image container */
+    background-image: url(/assets/images/image-5.jpg);
+    margin-right: 15px;
+    background-size: cover;
+    
+}
+
+.box-2-2-3{/* Style for the third Down image box inside the Second image container */
+    background-image: url(/assets/images/image-4.jpg);
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+/* Style for 'What They Say' container  */
+.what_they_say{
+    width: 100%;
+    height: 800px;
+    background-color: reen;
+    padding-top: 50px;
+}
+
+
+.what_they_say-header{/* Style for 'What They Say' Header container  */
+    padding-top: 40px;
+    width: 40%;
+    height: 120px;
+    margin: 0px auto;
+}
+.what_they_say-header h1{/* Style for 'What They Say' Header  */
+    font-size: 50px;
+    float: right;
+}
+.what_they_say-underline{/* Style for 'What They Say' small underline  */
+    float: right;
+    color:black;
+    transform: scale(1.5);
+    position: relative;
+    top: 105px;
+    left: 20px;
+}
+.what_they_say-image{/* Style for 'What They Say' Background image  */
+    width: 100%;
+    height: 600px;
+    background-image: url(/assets/images/background_image2.jpg);
+}
+
+
+/* Style for the round image by the right */
+.round_images_by_the_right{
+    width: 50%;
+    height: 450px;
+    float:right;
+    padding-top: 40px;
+}
+.round_images_by_the_right img{/* Style for all the round image by the right  */
+    border-radius: 100px;
+}
+
+/* Style for each of the round image by the right  */
+.picture-2{
+    width: 55%;
+    height: 50px;
+    background-color: iolet;
+    text-align: right;
+}
+.picture-3{
+    width: 5%;
+    height: 50px;
+    background-color: iolet;
+    margin-top: 50px;
+    
+}
+.picture-7{
+    width: 50%;
+    height: 50px;
+    background-color: iolet;
+    margin-top: 50px;
+    text-align: right;
+}
+.picture-6{
+    width: 80%;
+    height: 50px;
+    margin-top: 50px;
+    text-align: right;
+    position: relative;
+    bottom: 140px;
+}
+.picture-4{
+    width: 5%;
+    height: 50px;
+    margin-top: 50px;
+    text-align: right;
+    position: relative;
+    bottom: 80px;
+}
+.picture-5{
+    width: 60%;
+    height: 50px;
+    margin-top: 50px;
+    text-align: right;
+    position: relative;
+    bottom: 110px;
+}
+
+/* Style for the Beem by the Left, under "what they say" header */
+.beem_by_the_left{/* Style for the Beem container  */
+    width: 45%;
+    height: 550px;
+    position: relative;
+    bottom: 50px;
+}
+
+.image_on_the_beem_by_the_left{/* Style for the container of the image on the Beem  */
+    width: 45%;
+    height: 120px;
+    position: relative;
+    bottom: 640px;
+    text-align: right;
+}
+
+.image_on_the_beem_by_the_left img{/* Style for the image itself on the Beem */
+    border-radius: 100px;
+}
+
+.beem_write_up_container{/* Style for the 'Beem Write-up' container  */
+    width: 43%;
+    height: 300px;
+    position: relative;
+    bottom: 680px; 
+}
+
+.quote_symbol{/* Style for the first big qoatation mark on the Beem  */
+    font-size: 200px;
+    position: relative;
+    top: 30px;
+    color:white;
+    opacity: 0.5;
+    font-family:'Times New Roman', Times, serif;
+}
+.quote_symbol-2{/* Style for the Second big qoatation mark on the Beem  */
+    width: 84%;
+    height: 120px;
+    text-align: right;
+    position: relative;
+    top: -100px;
+}
+
+#beem_write_up{/* Style for the 'Write-up' in side the Big qoatation mark on the Beem  */
+    position: relative;
+    bottom: 80px;
+    text-align: center;
+    font-size: 22px;
+    width: 97%;
+    height: 120px;
+    line-height: 35px;
+    color:rgb(48, 46, 46);
+    font-family:'Times New Roman', Times, serif;
+    padding-left: 5px;
+}
+
+#beem_write_up i{/* Style for the Five Stars on the under the Beem write-up  */
+    margin-top: 20px;
+    color: gold;
+}
+
+
+
+
+
+
+
+/* Style for "Read Our Stories" container  */
+.read_our_stories_container{
+    width: 100%;
+    height: 290px;
+    overflow-x: hidden;
+    background-color: white;
+}
+
+.read_our_stories_flex_container{/* Style for flex container  */
+    width: 100%;
+    height: 250px;
+    overflow-x: scroll;
+}
+
+.read_our_stories_flex{/* Style for the Flex itself  */
+    display: flex;
+    width: 130%;
+    height: 200px;
+    margin-left: 120px;
+}
+
+.read_our_stories_box{/* Style for all the Read-our-stories, boxes */
+    width: 40%;
+    height: 230px;
+}
+
+.read_box-1{/* Style for Box-1  */
+    width: 30%;
+}
+.read_box-1 h1{/* Style for Header under Box-1  */
+    margin-top: 30px;
+    font-size: 50px;
+}
+.get_started_button{/* Style for Button(Get Started) inside Box-1  */
+    padding: 20px 30px;
+    text-decoration: none;
+    background-color: rgb(34, 240, 120);
+    color: white;
+    font-weight: bold;
+    position: relative;
+    top: 30px;
+}
+
+
+.read_box-2{/* Style for Box-2  */
+    margin-right: 20px;
+    display: flex;
+    border: 1px solid gray;
+
+}
+
+.away_from_home-image{/* Style for the Home image container, inside Box-2  */
+    width: 40%;
+    height: 230px;
+}
+.away_from_home-image img{/* Style for the image itself */
+    height: 230px;
+    width: 100%;
+}
+
+
+.away_from_home-write_up{/* Style for 'Away from Home write-up' container, inside Box-2  */
+    width: 50%;
+    padding-left: 40px;
+}
+.away_from_home-write_up h3{/* Style for "Away from Home write-up" Header  */
+    margin-top: 20px;
+}
+
+#away_from_home-Date{/* Style for the Date*/
+    font-size:13px;
+    margin-top: 10px;
+    opacity: 0.6;
+}
+#away_from_home-main_writ-up{/* Style for the Big paragraph for "Away from Home write-up  */
+    margin-top: 10px;
+    opacity: 0.6;
+}
+.away_from_home-write_up a{/* Style for the Link (Read more)  */
+    position: relative;
+    top: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(34, 240, 120);
+}
+
+.read_box-3{/* Style for Box-3  */
+    background-image: url(/assets/images/image-3.jpg);
+}
+
+
+
+
+/* Style for Footer container  */
+footer{
+    width: 100%;
+    height: 250px;
+    background-color: rgb(3, 3, 48);
+    padding-top: 60px;
+    color: white;
+}
+.footer-flex{/* Style for Flex box  */
+    display: flex;
+    margin-left: 120px;
+    width: 80%;
+}
+
+.footer_box{/* Style for all the boxes inside the footer container  */
+    width: 30%;
+    height: 200px;
+    color: white;
+    
+}
+
+.logo_section{/* Style for Logo container (the First Box)  */
+    width: 40%;
+}
+.logo_section header{/* Style for Header continer, inside the Logo container  */
+    margin-left: 0px;
+    width: 70%;
+    position: relative;
+    bottom: 15px;
+}
+
+.logo_section a{/* Style for the Link  */
+    text-decoration: none;
+    color: white;
+    position: relative;
+    top: 30px;
+    font-size: 18px;
+    letter-spacing: 2px;
+    
+}
+.logo_section i{/* Style for the social media icons */
+    font-size: 40px;
+    letter-spacing: 10px;
+    position: relative;
+    top: 30px;
+}
+
+
+
+.navigation_section{/* Style for the Navigation & About section */
+    background-color: rangered;
+}
+.footer_navigation_list li{/* Style for the List elements in Navigation & About Section  */
+    display: block;
+    padding-top: 10px;
+    position: relative;
+    top: 15px;
+    opacity: 0.8;
+}
+.footer_navigation_list a{/* Style for the Link in the List  */
+    text-decoration: none;
+    font-size:16px;
+    color: white;
+}
+
+
+
+.get_the_app_section img{/* Style for Get the app section  */
+    width: 50%;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Tablet view  */
+
+@media (min-width:768px) and (max-width:1023px){
+
+
+    
+    /* style for the Main container, containing all other elements */
+    .container{
+        width: 100%;
+        height: 2500px;
+    }
+
+
+
+
+    /* Style for Navigation container, containing the Logo and Nav Buttons */
+    .navigation-container{
+        width: 100%;
+        height: 90px;
+        background-color:white;
+        position: fixed;
+        z-index: 10;
+    }
+
+
+    .navigation-container nav{/* Navigation elements */
+        width: 95%;
+        height: 20px;
+        text-align: right;
+        background-color: rown;
+        margin-top: 10px;
+        display: none;
+    }
+
+    
+
+
+    /* Style for Logo Header & Symbol, inside the Navigation container  */
+    header{
+        width: 90%;
+        height: 60px;
+        margin-left: 0px;
+        margin: 0px auto;
+        position: relative;
+        bottom: -10px;
+    }
+
+    .bar{/* Style for "navigation Bar on mobile-view" */
+        display: block;
+        float: right;
+        font-size: 50px !important;
+        margin-top: 10px;
+    }
+
+   
+
+    .we_know_how-write_ups{/* Write-up container */
+        position: relative;
+        bottom: 600px;
+        margin-left: 20px;
+    }
+    
+
+
+
+    /* Style for "Book Now container", found inside "We Know How To Please You" container  */
+    .book_now-container{
+        width: 90%;
+        height: 100px;
+    }
+
+    
+
+
+
+
+    /* Style for About Us container */
+    .about_us{
+        overflow: hidden;
+        width: 100%;
+        height: 600px;
+    }
+
+    .side_image{/* Style for Image by the right */
+        background-image: url(/assets/images/image-1.jpg);
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        float: right;
+        width: 50%;
+        height: 400px;
+        margin-top: 170px;
+        margin-right: -40px;
+        border-radius: 6000px 3000px 4000px 2000px;
+        text-align:right;
+    }
+    .arrow{/* Style for Arrow container, inside the Image by the right */
+        width: 70%;
+        height: 30px;
+        margin-left: 80px;
+        position: relative;
+        top: 340px;
+    }
+    
+
+
+    /* style for About-Us Write-up container */
+    .about_us-write_up{
+        width: 80%;
+        height: 600px;
+        margin-left: 20px;
+        margin-top: 130px;
+    }
+    .about_us-write_up h1{/* Style for About Us Header */
+        font-size: 50px;
+    }
+    .about_us-underline{/* Style for About us small under line */
+        color:black;
+        transform: scale(1.5);
+        margin-left: 7px;
+        position: relative;
+        bottom: 7px;
+    }
+
+    .about_us-write_up p{/* Style for About Us Paragraph write-up */
+        font-size: 20px;
+        line-height: 30px;
+        word-spacing: 3px;
+        margin-top: 0px;  
+    }
+
+    
+
+
+
+
+
+    /* Style for section under About Us (FREE WIFI, CAR SERVICES, BREAK FAST) */
+    .section_under-about_us{
+        width: 70%;
+        height: 130px;
+        background-color:white;
+        position: relative;
+        z-index: 5;
+        padding: 0px;
+        padding-left: 20px;
+        margin-top: 20px;
+        text-align:center;
+    }
+
+    .section-box{/* Style for Box containing each of the icons */
+        display: inline-block;
+        width: 25%;
+        height: 100px;
+        text-align: center;
+        position: relative;
+        left:0px;
+        padding: 5px;
+        top: 10px; 
+    }
+    .section-box h4{/* Style for Write-ups under the icons */
+        margin-top: 35px;
+        font-size: 14px;
+    }
+
+    .section_icons{/* Style for the Icons itself */
+        transform: scale(3);
+        margin-top: 25px;
+        color: #38A2F7;
+    }
+
+
+
+
+
+
+
+
+
+
+    /* Style for Explore_Our_Resort container */
+    .explore_our_resort{
+        width: 100%;
+        height: 750px;
+        overflow: hidden;
+        margin-top: 0px;
+        b
+    }
+
+    .explore_our_resort-header{/* Style for Explore_Our_Resort Header container */
+        margin-left: 20px;
+        padding-top: 40px;
+    }
+
+    .explore_our_resort-header h1{/* Style for Explore_Our_Resort Header itself */
+        font-size: 50px;
+    }
+
+
+    /* Style for explore (it contains the "explore_images" container) */
+    .explore{
+        width: 100%;
+        height: 550px;
+        overflow-x: scroll;
+    }
+
+    .explore_images{/* Style for explore_images, containing all the Images*/
+        display: flex;
+        width: 150%;
+        height: 500px;
+        margin-left: 20px;
+        
+    }
+
+    .box-1{/* Style for First image container by the Left */
+        width: 70%;
+        height: 520px;
+        background-image: url(/assets/images/image-2.jpg);
+        background-size: cover;
+        margin-right: 15px;
+    }
+
+
+    
+
+
+
+
+
+
+
+
+    /* Style for 'What They Say' container  */
+    .what_they_say{
+        width: 100%;
+        height: 800px;
+        padding-top: 10px;
+    }
+
+
+    .what_they_say-header{/* Style for 'What They Say' Header container  */
+        padding-top: 0px;
+        width: 65%;
+        height: 120px;
+        margin: 0px auto;
+    }
+    .what_they_say-header h1{/* Style for 'What They Say' Header  */
+        font-size: 50px;
+        float: right;
+    }
+    
+    .what_they_say-image{/* Style for 'What They Say' Background image  */
+        width: 100%;
+        height: 600px;
+        background-image: url(/assets/images/background_image2.jpg);
+        margin-top: 20px;
+    }
+
+
+    /* Style for the round image by the right */
+    .round_images_by_the_right{
+        width: 50%;
+        height: 450px;
+        float:right;
+        padding-top: 40px;
+    }
+    .round_images_by_the_right img{/* Style for all the round image by the right  */
+        border-radius: 100px;
+    }
+
+    /* Style for each of the round image by the right  */
+    .picture-2{
+        width: 70%;
+        height: 50px;
+        text-align: right;
+        position: relative;
+        top: 20px;
+    }
+    .picture-3{
+        width: 5%;
+        height: 50px;
+        margin-top: 50px;
+        
+    }
+    .picture-7{
+        width: 65%;
+        height: 50px;
+        margin-top: 50px;
+        text-align: right;
+    }
+    .picture-6{
+        width: 95%;
+        height: 50px;
+        margin-top: 50px;
+        text-align: right;
+        position: relative;
+        bottom: 160px;
+    }
+    .picture-4{
+        width: 5%;
+        height: 50px;
+        margin-top: 50px;
+        text-align: right;
+        position: relative;
+        bottom: 80px;
+    }
+    .picture-5{
+        width: 85%;
+        height: 50px;
+        margin-top: 50px;
+        text-align: right;
+        position: relative;
+        bottom: 150px;
+    }
+
+    /* Style for the Beem by the Left, under "what they say" header */
+    .beem_by_the_left{/* Style for the Beem container  */
+        width: 48%;
+        height: 550px;
+        position: relative;
+        bottom: 50px;
+    }
+
+    .image_on_the_beem_by_the_left{/* Style for the container of the image on the Beem  */
+        width: 45%;
+        height: 120px;
+        position: relative;
+        bottom: 640px;
+        text-align: right;
+    }
+
+    .image_on_the_beem_by_the_left img{/* Style for the image itself on the Beem */
+        border-radius: 100px;
+    }
+
+    .beem_write_up_container{/* Style for the 'Beem Write-up' container  */
+        width: 45%;
+        height: 300px;
+        position: relative;
+        bottom: 680px; 
+    }
+
+    
+    .quote_symbol-2{/* Style for the Second big qoatation mark on the Beem  */
+        width: 84%;
+        height: 120px;
+        text-align: right;
+        position: relative;
+        top: -70px;
+    }
+
+    #beem_write_up{/* Style for the 'Write-up' in side the Big qoatation mark on the Beem  */
+        position: relative;
+        bottom: 80px;
+        text-align: center;
+        font-size: 19px;
+        width: 97%;
+        height: 120px;
+        line-height: 28px;
+        padding-left: 5px;
+    }
+
+    #beem_write_up i{/* Style for the Five Stars on the under the Beem write-up  */
+        margin-top: 10px;
+        color: gold;
+    }
+
+
+
+
+
+
+
+    /* Style for "Read Our Stories" container  */
+    .read_our_stories_container{
+        width: 100%;
+        height: 290px;
+        overflow-x: hidden;
+        background-color: white;
+    }
+
+    .read_our_stories_flex_container{/* Style for flex container  */
+        width: 100%;
+        height: 250px;
+        overflow-x: scroll;
+    }
+
+    .read_our_stories_flex{/* Style for the Flex itself  */
+        display: flex;
+        width: 150%;
+        height: 200px;
+        margin-left: 20px;
+    }
+
+    .read_our_stories_box{/* Style for all the Read-our-stories, boxes */
+        width: 50%;
+        height: 230px;
+    }
+
+    .read_box-1{/* Style for Box-1  */
+        width: 30%;
+    }
+    
+
+    .read_box-3{/* Style for Box-3  */
+        background-image: url(/assets/images/image-3.jpg);
+        background-size: cover;
+    }
+
+
+
+
+    /* Style for Footer container  */
+    footer{
+        width: 100%;
+        height: 250px;
+        background-color: rgb(3, 3, 48);
+        padding-top: 60px;
+        color: white;
+    }
+    .footer-flex{/* Style for Flex box  */
+        display: flex;
+        margin-left: 0px;
+        margin: 0px auto;
+        width: 90%;
+        justify-content: center;
+    }
+
+    .footer_box{/* Style for all the boxes inside the footer container  */
+        width: 40%;
+        height: 200px;
+        color: white;
+        
+    }
+
+    .logo_section{/* Style for Logo container (the First Box)  */
+        width: 70%;
+    }
+    .logo_section header{/* Style for Header continer, inside the Logo container  */
+        margin-left: 0px;
+        width: 70%;
+        position: relative;
+        bottom: 0px;
+    }
+    .logo_section header h1{/* Style for the Header  */
+        color: white;
+    }
+    .logo_section a{/* Style for the Link  */
+        text-decoration: none;
+        color: white;
+        position: relative;
+        top: 30px;
+        font-size: 18px;
+        letter-spacing: 2px;   
+    }
+    
+    .get_the_app_section img{/* Style for Get the app section  */
+        width: 100%;
+        margin-top: 20px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Mobile view  */
+@media (max-width:767px){
+    /* style for the Main container, containing all other elements */
+    .container{
+        width: 100%;
+        height: 4710px;
+    }
+
+
+
+
+    /* Style for Navigation container, containing the Logo and Nav Buttons */
+    .navigation-container{
+        width: 100%;
+        height: 70px;
+        padding: 10px 20px;
+        background-color:white;
+        position: fixed;
+        z-index: 10;
+    }
+
+    .navigation-container nav{/* Navigation elements */
+        display: none;
+    }
+
+    
+    
+
+
+    /* Style for Logo Header & Symbol, inside the Navigation container  */
+    header{
+        width: 90%;
+        height: 60px;
+        margin-left: 0px;
+        position: relative;
+        bottom: 0px;
+    }
+    
+    .bar{/* Style for "navigation Bar on mobile-view" */
+        display:block;
+        float: right;
+        font-size: 35px !important;
+        padding-right: 5px;
+        margin-top: 15px;
+        
+    }
+
+   
+
+
+
+
+    /* Style for "We Know How To Please You" container  */
+    .we_know_how-container{
+        display: ;
+        width: 100%;
+        height: 350px;
+        position: relative;
+        top: 90px;
+    }
+    .we_know_how-container img{/* Background image */
+        width: 100%;
+        height: 350px;
+    }
+
+    .we_know_how-write_ups{/* Write-up container */
+        position: relative;
+        width: 90%;
+        height: 300px;
+        bottom: 320px;
+        margin-left: 0px;
+        margin: 0px auto;
+    }
+    .we_know_how-write_ups h1{/* Big write-up (We Know How To Please You) */
+        font-size: 45px;
+    }
+    .we_know_how-write_ups p{/* Small write-up */
+        font-size: 30px;
+    }
+
+
+
+    /* Style for "Book Now container", found inside "We Know How To Please You" container  */
+    .book_now-container{
+        width: 85%;
+        height: 400px;
+        background-color:whitesmoke;
+        position: relative;
+        bottom: 300px;
+        margin: 0px auto;
+        padding: 10px;
+    }
+
+    form{/* Form container */
+        width: 99%;
+        height: 100px;
+        padding-left: 0px;
+        padding-top: 20px;
+        margin: 0px auto;
+    }
+
+    .form-input-box{/* Inline-block display element for Form elements */
+        display:block;
+        margin: -20px 0px;
+        width: 100%;
+        height: 90px;
+    }
+    .form-input-box input{/* Form input elements */
+        width: 98%;
+        height: 40px;
+        margin-top: 0px;
+    }
+
+    .form-input-box select{/* Form Select elements */
+        width: 100%;
+        height: 40px;
+        margin-top: 0px;
+    }
+
+    .book_now-button input{/* Form Button (Book now) element */
+        width: 100%;
+    }
+
+
+
+
+
+    /* Style for About Us container */
+    .about_us{
+        display: ;
+        overflow: hidden;
+        width: 100%;
+        height: 700px;
+        margin-top: 520px;
+    }
+
+    .side_image{/* Style for Image by the right */
+        display: none;
+       
+    }
+    
+
+    /* style for About-Us Write-up container */
+    .about_us-write_up{
+        width: 90%;
+        height: 600px;
+        margin-left: 0px;
+        margin: 0px auto;
+        margin-top: 50px;
+    }
+    .about_us-write_up h1{/* Style for About Us Header */
+        font-size: 40px;
+    }
+   
+    .about_us-write_up p{/* Style for About Us Paragraph write-up */
+        font-size: 20px;
+        line-height: 30px;
+        word-spacing: 2px;
+        margin-top: 10px;  
+    }
+
+
+
+    /* Style for section under About Us (FREE WIFI, CAR SERVICES, BREAK FAST) */
+    .section_under-about_us{
+        width: 100%;
+        height: 130px;
+        background-color:white;
+        padding: 0px;
+        margin-top: 20px;
+    }
+
+    .section-box{/* Style for Box containing each of the icons */
+        width: 32%;
+        height: 100px;
+        position: relative;
+        left:0px;
+        top: 15px; 
+    }
+    .section-box h4{/* Style for Write-ups under the icons */
+        margin-top: 35px;
+        font-size: 8px;
+    }
+
+    .section_icons{/* Style for the Icons itself */
+        transform: scale(1.5);
+    }
+
+    .spoon_in_break-fast{/* Style for Spoon icon on the Break fast Box */
+        margin-left: 10px;
+    }
+
+
+
+
+
+
+
+
+
+    /* Style for Explore_Our_Resort container */
+    .explore_our_resort{
+        display: non;
+        width: 100%;
+        height: 750px;
+        overflow: visible;
+        margin-top: 10px;
+    }
+
+    .explore_our_resort-header{/* Style for Explore_Our_Resort Header container */
+        margin-left: 0px;
+        padding-top: 10px;
+        width: 90%;
+        height: 120px;
+        margin: 0px auto;
+    }
+
+    .explore_our_resort-header h1{/* Style for Explore_Our_Resort Header itself */
+        font-size: 40px;
+    }
+
+
+    /* Style for explore (it contains the "explore_images" container) */
+    .explore{
+        width: 100%;
+        height: 1620px;
+        position: relative;
+        top: 20px;
+       
+    }
+
+    .explore_images{/* Style for explore_images, containing all the Images*/
+        flex-direction: column;
+        width: 90%;
+        height: 1610px;
+        margin-left: 0px;
+        margin: 0px auto;
+    }
+
+    .box-1{/* Style for First image container by the Left */
+        width: 100%;
+        height: 300px;
+        margin-right: 0px;
+    }
+
+
+    .box-2{/* Style for Second image container, next to first image container. It contains the Sub-image boxes */
+        width: 100%;
+        height: 500px;
+        margin-top: 10px;
+    }
+
+    /* Style for the Two top image boxes inside the Second image container */
+    .box-2-1{
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+    
+    .box-2-1-2{/* Style for the second top image box inside the Second image container */
+        margin-top: 10px;
+    }
+
+    /* Style for the Three Down image boxes inside the Second image container */
+    .box-2-2{
+        flex-direction: column;
+    }
+    .size_of_Images_in_box-2-2{
+        width: 100%;
+        height: 250px;
+    }
+
+    .box-2-2-2{/* Style for the second Down image box inside the Second image container */
+        margin-top: 10px;
+    }
+
+    .box-2-2-3{/* Style for the third Down image box inside the Second image container */
+        margin-top: 10px;
+    }
+
+
+
+
+
+
+
+
+    /* Style for 'What They Say' container  */
+    .what_they_say{
+        margin-top: 1000px;
+        width: 100%;
+        height: 520px;
+        padding-top: 45px;
+    }
+
+
+    .what_they_say-header{/* Style for 'What They Say' Header container  */
+        padding-top: 0px;
+        width: 90%;
+        height: 100px;
+        margin: 0px auto;
+        text-align: left;
+    }
+    .what_they_say-header h1{/* Style for 'What They Say' Header  */
+        font-size: 40px;
+        float:left;
+    }
+    .what_they_say-underline{/* Style for 'What They Say' small underline  */
+        float: left;
+        position: relative;
+        top: 90px;
+        left:-187px; 
+    }
+
+    .what_they_say-image{/* Style for 'What They Say' Background image  */
+        width: 100%;
+        height: 600px;
+        margin-top: 70px;
+        background-image: url(/assets/images/background_image2.jp);
+    }
+
+
+    /* Style for the round image by the right */
+    .round_images_by_the_right{
+        display: none;
+    }
+    
+
+    /* Style for the Beem by the Left, under "what they say" header */
+    .beem_by_the_left{/* Style for the Beem container  */
+        display: non;
+        width: 100%;
+        height: 380px;
+        position: relative;
+        bottom: 50px;
+    }
+
+    .image_on_the_beem_by_the_left{/* Style for the container of the image on the Beem  */
+        width: 100%;
+        height: 120px;
+        position: relative;
+        bottom: 440px;
+        text-align: right;
+    }
+
+    .image_on_the_beem_by_the_left img{/* Style for the image itself on the Beem */
+        border-radius: 100px;
+        width: 30%;
+    }
+
+    .beem_write_up_container{/* Style for the 'Beem Write-up' container  */
+        width: 100%;
+        height: 300px;
+        position: relative;
+        bottom: 550px; 
+    }
+
+    .quote_symbol{/* Style for the first big qoatation mark on the Beem  */
+        font-size: 100px;
+        position: relative;
+        top: 30px;
+    }
+    .quote_symbol-2{/* Style for the Second big qoatation mark on the Beem  */
+        width: 87%;
+        height: 120px;
+        text-align: right;
+        position: relative;
+        top: -50px;
+    }
+
+    #beem_write_up{/* Style for the 'Write-up' in side the Big qoatation mark on the Beem  */
+        position: relative;
+        bottom: 1px;
+        font-size: 14px;
+        width: 95%;
+        height: 120px;
+        line-height: 25px;
+        padding-left: 5px;
+    }
+
+    #beem_write_up i{/* Style for the Five Stars on the under the Beem write-up  */
+        margin-top: 0px;
+        color: gold;
+    }
+
+
+
+
+
+
+
+    /* Style for "Read Our Stories" container  */
+    .read_our_stories_container{
+        margin-top: 10px;
+        width: 100%;
+        height: 320px;
+        overflow-x: hidden;
+        background-color: white;
+    }
+
+    .read_our_stories_flex_container{/* Style for flex container  */
+        width: 210%;
+        height: 310px;
+        overflow-x: scroll;
+        margin-top: 10px;
+    }
+
+    .read_our_stories_flex{/* Style for the Flex itself  */
+        display: flex;
+        width: 230%;
+        height: 300px;
+        margin-left: 20px;
+    }
+
+    .read_our_stories_box{/* Style for all the Read-our-stories, boxes */
+        width: 50%;
+        height: 300px;
+    }
+
+    .read_box-1{/* Style for Box-1  */
+        width:25%;
+    }
+    .read_box-1 h1{/* Style for Header under Box-1  */
+        margin-top: 30px;
+        font-size: 40px;
+    }
+    .get_started_button{/* Style for Button(Get Started) inside Box-1  */
+        padding: 20px 30px;
+        text-decoration: none;
+        background-color: rgb(34, 240, 120);
+        color: white;
+        font-weight: bold;
+        position: relative;
+        top: 120px;
+    }
+
+
+    .read_box-2{/* Style for Box-2  */
+        margin-right: 20px;
+        display: flex;
+        border: 1px solid gray;
+    }
+
+    .away_from_home-image{/* Style for the Home image container, inside Box-2  */
+        width: 50%;
+        height: 300px;
+    }
+    .away_from_home-image img{/* Style for the image itself */
+        height: 300px;
+        width: 100%;
+    }
+
+
+    .away_from_home-write_up{/* Style for 'Away from Home write-up' container, inside Box-2  */
+        width: 50%;
+        padding-left: 20px;
+    }
+    .away_from_home-write_up h3{/* Style for "Away from Home write-up" Header  */
+        margin-top: 20px;
+    }
+
+    #away_from_home-main_writ-up{/* Style for the Big paragraph for "Away from Home write-up  */
+        line-height: 25px;
+    }
+    .away_from_home-write_up a{/* Style for the Link (Read more)  */
+        position: relative;
+        top: 30px;
+    }
+
+    .read_box-3{/* Style for Box-3  */
+        background-image: url(/assets/images/image-3.jpg);
+        width: 100%;
+    }
+
+
+
+
+    /* Style for Footer container  */
+    footer{
+        display: non;
+        width: 100%;
+        height: 470px;
+        background-color: rgb(3, 3, 48);
+        margin-top: 20px;
+        padding-top: 30px;
+        color: white;
+    }
+    .footer-flex{/* Style for Flex box  */
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 0px;
+        justify-content: space-between;
+        width: 90%;
+        margin: 0px auto;
+    }
+
+    .footer_box{/* Style for all the boxes inside the footer container  */
+        width: 47%;
+        height: 200px;
+        color: white;
+        margin-top: 10px; 
+    }
+
+    .logo_section{/* Style for Logo container (the First Box)  */
+        width: 50%;
+    }
+    .logo_section header{/* Style for Header continer, inside the Logo container  */
+        margin-left: 0px;
+        width: 100%;
+        position: relative;
+        bottom: 15px;
+    }
+    
+    .logo_section a{/* Style for the Link  */
+        text-decoration: none;
+        color: white;
+        position: relative;
+        top: 30px;
+        font-size: 10px;
+        letter-spacing: 2px;
+        
+    }
+    .logo_section i{/* Style for the social media icons */
+        font-size: 30px;
+        letter-spacing: 10px;
+        position: relative;
+        padding-top: 10px;
+        top: 10px;
+    }
+
+
+
+    .get_the_app_section img{/* Style for Get the app section  */
+        width: 80%;
+        margin-top: 20px;
+    }
+}
+

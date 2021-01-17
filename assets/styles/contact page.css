@@ -1,0 +1,367 @@
+.contact-main-container{
+    width: 100%;
+}
+
+
+/* Style for "contact_page" container  */
+.contact_page{
+    position: relative;
+    top: 90px;
+    width: 100%;
+    height: 458px;
+    background-image: url(/assets/images/background_image5.jpg);
+}
+
+.contact_page h1{/* Style for "contact_page" Header  */
+    margin-left: 120px;
+    font-size: 70px;
+    position: relative;
+    top: 175px;
+    color: white;
+}
+
+/* Style for "get_in_touch" container  */
+.get_in_touch{
+    width: 83%;
+    height: 710px;
+    margin: 0px auto;
+    position: relative;
+    top: 100px;
+    padding-top: 40px;
+    border-bottom: 2px solid gray;
+}
+
+.get_in_touch h1{/* Style for "get_in_touch" Header  */
+    font-size: 40px;
+}
+
+
+/* Style for "form_container" */
+.form_container{
+    width: 50%;
+    height: 600px;
+    float: right;
+    margin-top: 50px;
+}
+
+form{/* Style for "form" */
+    padding-left: 0px;
+    width: 100%;
+    height: 600px;
+
+}
+
+.input_box{/* Style for "input_box" container, conataining each of the input elements  */
+    margin-top: 20px;
+}
+
+form input{/* Style for "form-input" elements  */
+    width: 95%;
+    height: 40px;
+    padding-left: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: gray; 
+}
+form textarea{/* Style for "form-textarea" elements  */
+    width: 95%;
+    height: 200px;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+form label{/* Style for "form-label" elements */
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.button{/* Style for "form Button" */
+    width: 99%;
+    margin-top: 20px;
+    background-color: rgb(9, 206, 9);
+    color: white;
+    border: 0px;
+}
+
+
+
+
+
+/* Style for "detail_container" */
+.detail_container{
+    width: 50%;
+    height: 600px;
+    color: black;
+    margin-top: 50px;
+}
+
+
+/* Style for "detail-write-ups" */
+.detail_write-up{
+    padding-top: 50px;
+}
+
+.detail_write-up h3{
+    font-size: 25px;
+    position: relative;
+    top: 10px;
+}
+
+
+
+
+.detail_write-up i{
+    font-size: 50px;
+    color:#38A2F7;
+}
+
+.location{/* Style for "location container" */
+    padding-top: 20px;
+}
+
+
+
+/* Style for "Map" container  */
+.map{
+    width: 83%;
+    height: 500px;
+    background-image: url(/assets/images/map.jpg);
+    background-size: cover;
+    margin: 0px auto;
+    margin-top: 150px;
+}
+
+
+
+
+/* Style for "Footer" */
+footer{
+    margin-top: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Tablet view  */
+
+@media (min-width:768px) and (max-width:1023px){
+    .contact-main-container{
+        width: 100%;
+        height: 2230px;
+    }
+
+
+    /* Style for "get_in_touch" container  */
+    .get_in_touch{
+        width: 90%;
+        height: 710px;
+        margin: 0px auto;
+        position: relative;
+        top: 100px;
+        padding-top: 40px;
+        border-bottom: 2px solid gray;
+    }
+
+
+    /* Style for "Map" container  */
+    .map{
+        width: 90%;
+        height: 500px;
+        background-image: url(/assets/images/map.jpg);
+        background-size: cover;
+        margin: 0px auto;
+        margin-top: 150px;
+    }
+
+
+
+
+    /* Style for "Footer" */
+    footer{
+        margin-top: 80px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Mobile view  */
+
+@media (max-width:767px){
+
+
+    /* Style for "contact_page" container  */
+    .contact_page{
+        position: relative;
+        top: 90px;
+        width: 100%;
+        height: 458px;
+        background-image: url(/assets/images/background_image5.jpg);
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+
+    .contact_page h1{/* Style for "contact_page" Header  */
+        margin-left: 20px;
+        font-size: 70px;
+        position: relative;
+        top: 175px;
+        color: white;
+    }
+
+    /* Style for "get_in_touch" container  */
+    .get_in_touch{
+        width: 90%;
+        height: 1210px;
+        margin: 0px auto;
+        position: relative;
+        top: 100px;
+ 
+    }
+
+    .get_in_touch h1{/* Style for "get_in_touch" Header  */
+        font-size: 40px;
+    }
+
+
+    /* Style for "form_container" */
+    .form_container{
+        width: 100%;
+        height: 600px;
+        float: left;
+        margin-top: 0px;
+    }
+
+    form{/* Style for "form" */
+        padding-left: 0px;
+        width: 100%;
+        height: 600px;
+
+    }
+
+    .input_box{/* Style for "input_box" container, conataining each of the input elements  */
+        margin-top: 20px;
+    }
+
+    form input{/* Style for "form-input" elements  */
+        width: 92%;
+        height: 40px;
+        padding-left: 20px;
+        font-size: 18px;
+    }
+    form textarea{/* Style for "form-textarea" elements  */
+        width: 92%;
+        height: 200px;
+        padding-left: 20px;
+    }
+
+
+    .button{/* Style for "form Button" */
+        width: 99%;
+        margin-top: 20px;
+        background-color: rgb(9, 206, 9);
+        color: white;
+        border: 0px;
+    }
+
+
+
+
+
+    /* Style for "detail_container" */
+    .detail_container{
+        width: 100%;
+        height: 520px;
+        color: black;
+        margin-top: 630px;
+        text-align: center;
+    }
+
+
+    /* Style for "detail-write-ups" */
+    .detail_write-up{
+        padding-top: 30px;
+    }
+
+
+    .detail_write-up h3{
+        font-size: 25px;
+        position: relative;
+        top: 0px;
+    }
+
+
+    
+
+
+
+    /* Style for "Map" container  */
+    .map{
+        width: 90%;
+        height: 400px;
+        background-image: url(/assets/images/map.jpg);
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        margin: 0px auto;
+        margin-top: 130px;
+    }
+
+
+
+
+    /* Style for "Footer" */
+    footer{
+        margin-top: 50px;
+    }
+}

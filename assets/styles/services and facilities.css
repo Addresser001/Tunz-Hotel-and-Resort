@@ -1,0 +1,268 @@
+/* Style for the 'Main-container', containing all other elements */
+.main-container{
+    width: 100%;
+    height: 2000px;
+}
+
+/* Style for "services-and-facilities-background" container  */
+.services-and-facilities-background{
+    position: relative;
+    top: 90px;
+    width: 100%;
+    height: 458px;
+    background-image: url(/assets/images/background_image4.jpg);
+}
+
+.services-and-facilities-background h1{/* Style for "services-and-facilities-background" Header  */
+    margin-left: 120px;
+    font-size: 70px;
+    position: relative;
+    top: 175px;
+    color: white;
+}
+
+
+/* Style for "Overview_of_our_Services_and_Facilities" container  */
+.Overview_of_our_Services_and_Facilities{
+    width: 83%;
+    height: 1400px;
+    margin: 0px auto;
+    margin-top: 100px;
+}
+.Overview_of_our_Services_and_Facilities h1{/* Style for "Overview_of_our_Services_and_Facilities" Header */
+    font-size: 35px;
+    padding-top: 30px;
+}
+
+/* Style for "overview-container", containing the "room_display-flex" container  */
+.overview-container{
+    margin-top: 30px;
+}
+
+/* Style for all the Boxes, it contains the "overview-box-write-up" */
+.overview-box{
+    width: 32%;
+    height: 380px;
+    margin-top: 25px;
+}
+
+.overview-box-write-up{/* Style for "overview-box-write-up" container */
+    height: 20px;
+    background-color: white;
+    opacity: 0.9;
+    position: relative;
+    top: 300px;
+    padding: 30px;
+    text-align: center;
+}
+
+
+
+
+
+.fitness{/* Style for "Fitness box" */
+    background-image: url(/assets/images/fitness.jpg);
+    background-size: cover;
+}
+.parking{/* Style for "Parking box" */
+    background-image: url(/assets/images/parking.jpg);
+    background-size: cover;
+}
+
+.conference{/* Style for "Conference box" */
+    background-image: url(/assets/images/conference.jpg);
+    background-size: cover;
+}
+
+.bouquet{/* Style for "Bouquet box" */
+    background-image: url(/assets/images/bouquet.jpg);
+    background-size: cover;
+}
+
+
+.spa{/* Style for "Spa box" */
+    background-image: url(/assets/images/spa.jpg);
+    background-size: cover;
+}
+.golf{/* Style for "Golf box" */
+    background-image: url(/assets/images/golf.jpg);
+    background-size: cover;
+}
+
+.transport{/* Style for "Transport box" */
+    background-image: url(/assets/images/transport.jpg);
+    background-size: cover;
+}
+
+.laundry{/* Style for "Laundry box" */
+    background-image: url(/assets/images/laundry.jpg);
+    background-size: cover;
+}
+
+.tennis{/* Style for "Tennis box" */
+    background-image: url(/assets/images/tennis.jpg);
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Tablet view  */
+
+@media (min-width:768px) and (max-width:1023px){
+    /* Style for the 'Main-container', containing all other elements */
+    .main-container{
+        width: 100%;
+        height: 2240px;
+    }
+
+    /* Style for "services-and-facilities-background" container  */
+    .services-and-facilities-background{
+        position: relative;
+        top: 90px;
+        width: 100%;
+        height: 458px;
+        background-image: url(/assets/images/background_image4.jpg);
+    }
+
+    .services-and-facilities-background h1{/* Style for "services-and-facilities-background" Header  */
+        margin-left: 80px;
+        font-size: 70px;
+        position: relative;
+        top: 175px;
+        color: white;
+    }
+
+
+    /* Style for "Overview_of_our_Services_and_Facilities" container  */
+    .Overview_of_our_Services_and_Facilities{
+        width: 90%;
+        height: 1400px;
+        margin: 0px auto;
+        margin-top: 100px;
+    }
+    
+
+
+
+
+    .fitness{/* Style for "Fitness box" */
+        background-image: url(/assets/images/fitness.jpg);
+        background-size: cover;
+        background-position: center center;
+    }
+
+
+
+    footer{
+        position: relative;
+        top: -20px;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Mobile view  */
+@media (max-width:767px){
+
+
+    /* Style for the 'Main-container', containing all other elements */
+    .main-container{
+        width: 100%;
+        height: 4500px;
+    }
+
+    /* Style for "services-and-facilities-background" container  */
+    .services-and-facilities-background{
+        position: relative;
+        top: 90px;
+        width: 100%;
+        height: 458px;
+        background-image: url(/assets/images/background_image4.jpg);
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+
+    .services-and-facilities-background h1{/* Style for "services-and-facilities-background" Header  */
+        margin-left: 20px;
+        font-size: 65px;
+        position: relative;
+        top: 100px;
+        color: white;
+    }
+
+
+    /* Style for "Overview_of_our_Services_and_Facilities" container  */
+    .Overview_of_our_Services_and_Facilities{
+        width: 90%;
+        height: 1400px;
+        margin: 0px auto;
+        margin-top: 100px;
+    }
+    .Overview_of_our_Services_and_Facilities h1{/* Style for "Overview_of_our_Services_and_Facilities" Header */
+        font-size: 35px;
+        padding-top: 20px;
+    }
+
+    /* Style for "overview-container", containing the "room_display-flex" container  */
+    .overview-container{
+        margin-top: 10px;
+    }
+
+    /* Style for all the Boxes, it contains the "overview-box-write-up" */
+    .overview-box{
+        width: 100%;
+        height: 380px;
+        margin-top: 25px;
+    }
+
+    
+
+    .main-container footer{
+        position: relative;
+        top: 2400px;
+    }
+
+}

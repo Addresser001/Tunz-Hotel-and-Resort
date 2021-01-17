@@ -1,0 +1,356 @@
+.rooms-and-rates-main_container{
+    width: 100%;
+}
+
+/* Style for Rooms & Rates container */
+.rooms-and-rates{
+    position: relative;
+    top: 90px;
+    width: 100%;
+    height: 458px;
+    background-image: url(/assets/images/background_image3.jpg);
+}
+
+.rooms-and-rates h1{/* Style for Rooms & Rates Header */
+    margin-left: 120px;
+    font-size: 70px;
+    position: relative;
+    top: 175px;
+    color: white;
+}
+
+
+
+
+
+/* Style for "Accomodation at a glance" container */
+.accomodation_at_a_glance{
+    width: 83%;
+    height: 2050px;
+    margin: 0px auto;
+    margin-top: 100px;
+}
+.accomodation_at_a_glance h1{/* Style for Accomodation at a glance Header */
+    font-size: 35px;
+    padding-top: 30px;
+}
+
+/* Style "rooms-container", containing the "room-display-flex" */
+.rooms-container{
+    margin-top: 50px;
+}
+.room_display-flex{
+    display: flex;
+    justify-content: space-between;  
+}
+
+.rooms{/* Style involving the all the room boxes */
+    width: 48.5%;
+    height: 550px;
+    margin-top: 35px;
+}
+
+.room-write-up{/* Style for room write-up in all the room boxes*/
+    height: 90px;
+    background-color: white;
+    opacity: 0.9;
+    position: relative;
+    top: 400px;
+    padding: 30px;
+}
+.room-write-up p{
+    padding-top: 5px;
+}
+.room-write-up h1{
+    color: rgb(9, 206, 9) ;
+    padding-top: 5px;
+}
+
+.room-write-up h1 i{
+    color: black;
+    font-size: 25px;
+    font-style: normal;
+}
+.arrow_icon{/* Style for Arrow-icon container on the room-write-up container */
+    width: 10%;
+    float: right; 
+}
+.room-write-up i{/* Style for Arrow-icon itself*/
+    transform: scale(5, 2);
+    color:  rgb(9, 206, 9); 
+}
+
+/* Style for each of the Rooms, from room-1 to room-6  */
+.room-1{
+    background-image: url(/assets/images/room-1.jpg);
+    background-size: cover;
+}
+.room-2{
+    background-image: url(/assets/images/room-2.jpg);
+    background-size: cover;
+}
+
+.room-3{
+    background-image: url(/assets/images/room-3.jpg);
+    background-size: cover;
+}
+.room-4{
+    background-image: url(/assets/images/room-4.jpg);
+    background-size: cover;
+}
+
+
+.room-5{
+    background-image: url(/assets/images/room-5.jpg);
+    background-size: cover;
+}
+.room-6{
+    background-image: url(/assets/images/room-6.jpg);
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Tablet view  */
+
+@media (min-width:768px) and (max-width:1023px){
+
+
+
+    .rooms-and-rates-main_container{
+        width: 100%;
+        height: 2810px;
+    }
+    
+    /* Style for Rooms & Rates container */
+    .rooms-and-rates{
+        position: relative;
+        top: 90px;
+        width: 100%;
+        height: 458px;
+        background-image: url(/assets/images/background_image3.jpg);
+    }
+    
+    .rooms-and-rates h1{/* Style for Rooms & Rates Header */
+        margin-left: 120px;
+        font-size: 70px;
+        position: relative;
+        top: 175px;
+        color: white;
+    }
+    
+    
+    
+    
+    
+    /* Style for "Accomodation at a glance" container */
+    .accomodation_at_a_glance{
+        width: 90%;
+        height: 2050px;
+        margin: 0px auto;
+        margin-top: 100px;
+    }
+    
+
+    footer{
+        position: relative;
+        bottom: 100px;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Mobile view  */
+
+@media (max-width:767px){
+
+
+    /* Style for Rooms & Rates container */
+    .rooms-and-rates{
+        position: relative;
+        top: 90px;
+        background-image: url(/assets/images/background_image3.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .rooms-and-rates h1{/* Style for Rooms & Rates Header */
+        margin-left: 20px;
+        font-size: 70px;
+        position: relative;
+        top: 175px;
+        color: white;
+    }
+
+
+
+
+
+    /* Style for "Accomodation at a glance" container */
+    .accomodation_at_a_glance{
+        width: 90%;
+        height: 2050px;
+        margin: 0px auto;
+        margin-top: 100px;
+    }
+    .accomodation_at_a_glance h1{/* Style for Accomodation at a glance Header */
+        font-size: 35px;
+        padding-top: 30px;
+    }
+
+    /* Style "rooms-container", containing the "room-display-flex" */
+    .rooms-container{
+        margin-top: 10px;
+    }
+    .room_display-flex{
+        flex-direction: column;
+        justify-content: space-between;  
+    }
+
+    .rooms{/* Style involving the all the room boxes */
+        width: 100%;
+        height: 350px;
+        margin-top: 35px;
+    }
+
+    .room-write-up{/* Style for room write-up in all the room boxes*/
+        height: 80px;
+        background-color:white;
+        opacity: 0.9;
+        position: relative;
+        top: 230px;
+        padding: 20px;
+    }
+
+    .room-write-up h2{
+        font-size: 18px;
+    }
+    .room-write-up p{
+        padding-top: 5px;
+    }
+
+    .room-write-up h1{
+        color: rgb(9, 206, 9) ;
+        padding-top: 5px;
+        
+    }
+    .room-write-up h1 i{
+        color: black;
+        font-size: 18px;
+        font-style: normal;
+    }
+
+    
+    .arrow_icon{/* Style for Arrow-icon container on the room-write-up container */
+        width: 10%;
+        float: right;
+    }
+    .room-write-up i{/* Style for Arrow-icon itself*/
+        transform: scale(4, 1.5);
+        color:  rgb(9, 206, 9); 
+    }
+
+    /* Style for each of the Rooms, from room-1 to room-6  */
+    .room-1{
+        background-image: url(/assets/images/room-1.jpg);
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+    .room-2{
+        background-image: url(/assets/images/room-2.jpg);
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+
+    .room-3{
+        background-image: url(/assets/images/room-3.jpg);
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+    .room-4{
+        background-image: url(/assets/images/room-4.jpg);
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+
+
+    .room-5{
+        background-image: url(/assets/images/room-5.jpg);
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+    .room-6{
+        background-image: url(/assets/images/room-6.jpg);
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+
+
+    footer{
+        position: relative;
+        top: 430px;
+    }
+
+}
